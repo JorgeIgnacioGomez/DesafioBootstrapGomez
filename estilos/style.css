@@ -23,7 +23,7 @@ body {
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1030;
+    z-index: 1070;
     min-height: 0px;
     width: 100%;
 }
@@ -90,11 +90,21 @@ body {
 }
 
 .formis {
-    position: absolute;
+    position: fixed;
     width: 91%;
 }
 
 .inputContainer {
     width: 100px;
     transform: translateX(215%);
+}
+
+.title {
+    display: flex;;
+}
+
+.submitBtn {
+    display: flexbox;
+    padding: 0.6rem;
+    margin: 1000rem
 }
